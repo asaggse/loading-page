@@ -1,8 +1,8 @@
 * {
     box-sizing: border-box;
-  }
-  
-  body {
+}
+
+body {
     font-family: 'Roboto', sans-serif;
     display: flex;
     align-items: center;
@@ -11,15 +11,15 @@
     overflow: hidden;
     margin: 0;
     background-color: #F1F1F1;
-  }
-  
-  .loading-container {
+}
+
+.loading-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-  
-  .loading-spinner {
+}
+
+.loading-spinner {
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -27,19 +27,19 @@
     border-top-color: #4285F4;
     animation: spin 1s ease-in-out infinite;
     margin-bottom: 20px;
-  }
-  
-  @keyframes spin {
+}
+
+@keyframes spin {
     0% {
-      transform: rotate(0deg);
+        transform: rotate(0deg);
     }
+
     100% {
-      transform: rotate(360deg);
+        transform: rotate(360deg);
     }
-  }
-  
-  h1 {
+}
+
+h1 {
     font-size: 24px;
     color: #555;
-  }
-  
+}
